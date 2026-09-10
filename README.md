@@ -21,11 +21,49 @@ Anonymous Instagram viewer alternatives, compared: what each tool shows, what it
 
 Every script here uses the Python standard library only, so there is nothing to install beyond Python 3 itself.
 
+## Table of contents
+
+- [What an anonymous Instagram viewer is](#what-an-anonymous-instagram-viewer-is)
+- [The three kinds of tool in this list](#the-three-kinds-of-tool-in-this-list)
+- [What no viewer can do](#what-no-viewer-can-do)
+- [Why a list of alternatives](#why-a-list-of-alternatives)
+- [The alternatives](#the-alternatives)
+- [Current status](#current-status)
+- [How to check which ones still work](#how-to-check-which-ones-still-work)
+- [Which one should I use](#which-one-should-i-use)
+- [Keeping the directory valid](#keeping-the-directory-valid)
+- [Adding a viewer to the directory](#adding-a-viewer-to-the-directory)
+- [How to evaluate a viewer](#how-to-evaluate-a-viewer)
+- [Full reviews](#full-reviews)
+- [Frequently asked questions](#frequently-asked-questions)
+- [Disclaimer](#disclaimer)
+
 ## What an anonymous Instagram viewer is
 
 An anonymous Instagram viewer is a web tool that shows public Instagram content without a login and without the visit being tied to you. You enter a username, the tool fetches the account's public posts and stories through its own servers, and you read them in your browser. The most common use is an Instagram story viewer: to watch a public story without the account owner knowing.
 
 These tools work with public profiles only. None of them can view a private account, and a tool that claims otherwise is not what it says it is.
+
+## The three kinds of tool in this list
+
+The entries are not interchangeable, and the `supports` tags in `viewers.json` record which is which. Three kinds show up here:
+
+- **Story viewers.** The largest group. You enter a username and read the current stories and saved highlights, with nothing logged against your own account.
+- **Profile and post viewers.** These show the grid instead: posts, reels, bio, and follower counts. A couple add search by hashtag or location, which is how you find a public account rather than looking one up by name.
+- **Downloaders.** The same public content, saved to your device rather than read in the browser. Some do this alongside viewing, others do only this.
+
+Most entries cover two of the three, which is why the directory carries tags at all. It is also why `picker.py` filters on them: eight names in a list is not the same thing as eight interchangeable options.
+
+## What no viewer can do
+
+The limits are the same for every tool here, whatever the landing page claims:
+
+- **View a private account.** Private content is visible to approved followers only, and no web tool changes that. A tool promising private access is not doing what it says it does.
+- **Tell you who viewed a profile.** Instagram does not publish profile visitors, so there is no record for a tool to read. Nothing can recover what was never stored.
+- **Reveal a private email, phone number, or address.** That information is not on a public profile in the first place.
+- **Recover deleted content.** Once a post or story is gone it is gone. A viewer shows only what Instagram is serving at that moment.
+
+The pattern is the same every time: a viewer can only show what Instagram already exposes publicly. Anything beyond that would take access no third-party tool has.
 
 ## Why a list of alternatives
 
@@ -37,7 +75,7 @@ The churn is not hypothetical. Several entries in this directory have already be
 
 ## The alternatives
 
-The tools this directory tracks: Imginn, Dumpor, Picnobi, Instanavigation, AnonyIG, StoriesIG, StoriesDown, and StealthPeek. They overlap heavily. Most show public posts, stories, and reels without a login, and a few add extras such as hashtag or location search. Each entry carries `supports` tags in `viewers.json` recording what that tool actually does, which is what `picker.py` filters on. None of them can reach a private account.
+The tools this directory tracks: Imginn, Dumpor, Picnobi, Instanavigation, AnonyIG, StoriesIG, StoriesDown, and StealthPeek. They overlap heavily. Most show public posts, stories, and reels without a login, and a few add extras such as hashtag or location search.
 
 ## Current status
 
@@ -97,6 +135,21 @@ python validate.py other.json      # validate another file
 ```
 
 It catches missing or empty fields, URLs that do not start with `http://` or `https://`, malformed or duplicated tags, and duplicate names or domains. Run it after you edit the data file to add a viewer. It exits non-zero when it finds a problem, so it also works as a pre-commit check or a CI step.
+
+## Adding a viewer to the directory
+
+The directory is one JSON file, so keeping it current is an edit rather than a fork:
+
+1. Add an object to the `viewers` list in `viewers.json` with a `name`, a `url`, a one-line `note`, and `supports` tags.
+2. Run `python validate.py` to check it against the schema the other scripts expect.
+3. Confirm the site answers, then record the result:
+
+```
+python check_viewers.py --live --record
+python status_svg.py
+```
+
+Keep the tags lowercase and reuse an existing tag wherever it fits, so `picker.py` keeps matching across entries instead of splitting one job across two names. If a tool is a mirror of one already listed, add it only when it behaves differently; otherwise the list grows without getting more useful.
 
 ## How to evaluate a viewer
 
