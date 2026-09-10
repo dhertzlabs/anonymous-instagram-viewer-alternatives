@@ -1,0 +1,94 @@
+{
+  "runs": [
+    {
+      "at": "2026-09-10T17:36:18Z",
+      "results": [
+        {
+          "name": "Imginn",
+          "state": "down",
+          "detail": "HTTP 403"
+        },
+        {
+          "name": "Dumpor",
+          "state": "up",
+          "detail": "200 (283 ms)"
+        },
+        {
+          "name": "Picnobi",
+          "state": "up",
+          "detail": "200 (239 ms)"
+        },
+        {
+          "name": "Instanavigation",
+          "state": "down",
+          "detail": "unreachable"
+        },
+        {
+          "name": "IgAnony",
+          "state": "down",
+          "detail": "unreachable"
+        },
+        {
+          "name": "StoriesIG",
+          "state": "up",
+          "detail": "200 (357 ms)"
+        },
+        {
+          "name": "StoriesDown",
+          "state": "down",
+          "detail": "unreachable"
+        },
+        {
+          "name": "StealthPeek",
+          "state": "up",
+          "detail": "200 (94 ms)"
+        }
+      ]
+    },
+    {
+      "at": "2026-09-10T17:50:29Z",
+      "results": [
+        {
+          "name": "Imginn",
+          "state": "down",
+          "detail": "HTTP 403"
+        },
+        {
+          "name": "Dumpor",
+          "state": "up",
+          "detail": "200 (372 ms)"
+        },
+        {
+          "name": "Picnobi",
+          "state": "up",
+          "detail": "200 (157 ms)"
+        },
+        {
+          "name": "Instanavigation",
+          "state": "up",
+          "detail": "200 (108 ms)"
+        },
+        {
+          "name": "AnonyIG",
+          "state": "up",
+          "detail": "200 (108 ms)"
+        },
+        {
+          "name": "StoriesIG",
+          "state": "up",
+          "detail": "200 (361 ms)"
+        },
+        {
+          "name": "StoriesDown",
+          "state": "up",
+          "detail": "200 (776 ms)"
+        },
+        {
+          "name": "StealthPeek",
+          "state": "up",
+          "detail": "200 (102 ms)"
+        }
+      ]
+    }
+  ]
+}

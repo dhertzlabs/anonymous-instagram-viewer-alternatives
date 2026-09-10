@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="326" viewBox="0 0 780 326" role="img" aria-label="Anonymous Instagram viewer status: 7 of 8 reachable">
+<rect x="0.5" y="0.5" width="779" height="325" rx="8" fill="none" stroke="#8b949e" stroke-opacity="0.35"/>
+<text x="24" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#8b949e">Anonymous Instagram viewer status</text>
+<text x="756" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" text-anchor="end" fill="#6e7681">2026-09-10 17:50 UTC &#183; 7 of 8 reachable</text>
+<circle cx="29" cy="74" r="5" fill="#d29922"/>
+<text x="44" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e">Imginn</text>
+<text x="756" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" text-anchor="end" fill="#6e7681">blocked &#183; HTTP 403</text>
+<circle cx="29" cy="100" r="5" fill="#3fb950"/>
+<text x="44" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e">Dumpor</text>
+<text x="756" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" text-anchor="end" fill="#6e7681">up &#183; 200 (372 ms)</text>
+<circle cx="29" cy="126" r="5" fill="#3fb950"/>
+<text x="44" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e">Picnobi</text>
+<text x="756" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" text-anchor="end" fill="#6e7681">up &#183; 200 (157 ms)</text>
+<circle cx="29" cy="152" r="5" fill="#3fb950"/>
+<text x="44" y="156" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e">Instanavigation</text>
+<text x="756" y="156" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" text-anchor="end" fill="#6e7681">up &#183; 200 (108 ms)</text>
+<circle cx="29" cy="178" r="5" fill="#3fb950"/>
+<text x="44" y="182" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e">AnonyIG</text>
+<text x="756" y="182" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" text-anchor="end" fill="#6e7681">up &#183; 200 (108 ms)</text>
+<circle cx="29" cy="204" r="5" fill="#3fb950"/>
+<text x="44" y="208" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e">StoriesIG</text>
+<text x="756" y="208" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" text-anchor="end" fill="#6e7681">up &#183; 200 (361 ms)</text>
+<circle cx="29" cy="230" r="5" fill="#3fb950"/>
+<text x="44" y="234" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e">StoriesDown</text>
+<text x="756" y="234" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" text-anchor="end" fill="#6e7681">up &#183; 200 (776 ms)</text>
+<circle cx="29" cy="256" r="5" fill="#3fb950"/>
+<text x="44" y="260" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e">StealthPeek</text>
+<text x="756" y="260" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" text-anchor="end" fill="#6e7681">up &#183; 200 (102 ms)</text>
+<text x="24" y="310" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#6e7681">Latest run from history.json. Refresh with check_viewers.py --live --record.</text>
+</svg>

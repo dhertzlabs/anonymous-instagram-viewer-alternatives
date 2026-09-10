@@ -1,0 +1,13 @@
+{
+  "_comment": "Sample seed list of anonymous Instagram viewers. These domains move and go down often, so treat this as a starting point: update the URLs and add your own entries. Each viewer needs a name, a url, a short note, and a supports list. The supports tags are what picker.py filters on, so use the same tag for the same job across entries and keep them lowercase (for example stories, highlights, profiles, posts, reels).",
+  "viewers": [
+    { "name": "Imginn", "url": "https://imginn.com", "note": "Posts, stories, and reels", "supports": ["posts", "stories", "reels"] },
+    { "name": "Dumpor", "url": "https://dumpor.com", "note": "Hashtag and location search", "supports": ["hashtag", "location"] },
+    { "name": "Picnobi", "url": "https://picnobi.com", "note": "Profiles and posts", "supports": ["profiles", "posts"] },
+    { "name": "Instanavigation", "url": "https://instanavigation.io", "note": "Stories, highlights, and profiles", "supports": ["stories", "highlights", "profiles"] },
+    { "name": "AnonyIG", "url": "https://anonyig.com", "note": "Posts, stories, and highlights", "supports": ["posts", "stories", "highlights"] },
+    { "name": "StoriesIG", "url": "https://storiesig.com", "note": "Stories and highlights", "supports": ["stories", "highlights"] },
+    { "name": "StoriesDown", "url": "https://storiesdown.io", "note": "Stories and highlights, with downloads", "supports": ["stories", "highlights", "download"] },
+    { "name": "StealthPeek", "url": "https://stealthpeek.com", "note": "Profiles and stories", "supports": ["profiles", "stories"] }
+  ]
+}
